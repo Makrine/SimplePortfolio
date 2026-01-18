@@ -1,86 +1,199 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MTLS9QWY8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-9MTLS9QWY8');
-</script>
-    <title>Makrina Tskipurishvili | Embedded & Software Projects</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" type="image/png" href="./Assets/favicon.ico">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9MTLS9QWY8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  </head>
-  <body>
-    <h1>Makrina Tskipurishvili</h1>
-    <h2>Embedded & Software Projects</h2>
-    <p>
-Embedded systems student and software developer with hands-on experience in C, Python, Unity, and hardware-adjacent suffering.
-I like building things that actually run.
-</p>
-    <hr>
-     
-    <div class="page">
-      <br>
-      <!-- <a href="https://makrine.github.io" target="_blank">Main Portfolio Page</a> -->
-    <h2 class="header">
-      <img src="Assets/es.png" alt="EmbeddedSystems" class="image" />
-       Embedded Systems related projects</h2>
-       <p class="sub">C/C++, microcontrollers, sensors, and “why is this pin high” debugging.</p>
-       <ul>
-        <li><a href="https://github.com/Makrine/STM_SPI" target="_blank">STM32F103C8T6 with LIS2DW12 SPI </a><code> C</code></li>
+    gtag('config', 'G-9MTLS9QWY8');
+  </script>
+  <title>Makrina Tskipurishvili | Embedded & Software Projects</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/png" href="./Assets/favicon.ico">
+
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Makrina Tskipurishvili</h1>
+      <h2>Embedded & Software Projects</h2>
+      <p>
+        
+      </p>
+
+      <div class="quick-links">
+        <a class="btn" href="mailto:tskipurishvilimakrina@gmail.com?subject=Hello!">Email</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/makrina-tskipurishvili-9b0407236/"
+          target="_blank">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/Makrine" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+  <aside class="sidebar">
+    <section class="card about">
+      <h2 class="header">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/>
+        </svg>
+        About me
+      </h2>
+
+      <p class="mini">
+        Embedded systems student and software developer with hands-on experience in C, Python, Unity, and
+        hardware-adjacent suffering. I like building things that actually run.
+      </p>
+
+      <div class="about-block">
+        <h3>Hard skills</h3>
+        <div class="chips">
+          <span class="chip">C</span>
+          <span class="chip">C++</span>
+          <span class="chip">Python</span>
+          <span class="chip">Microcontrollers</span>
+          <span class="chip">SPI / I2C / UART</span>
+          <span class="chip">MQTT</span>
+          <span class="chip">Git</span>
+          <span class="chip">Unity / C#</span>
+          <span class="chip">Web scraping</span>
+          <span class="chip">APIs</span>
+          <span class="chip">Databases</span>
+        </div>
+      </div>
+
+      <div class="about-block">
+        <h3>Soft skills</h3>
+        <ul class="clean">
+          <li>Calm under pressure (even when the pin is high for no reason)</li>
+          <li>Strong debugging and problem breakdown</li>
+          <li>Independent, quick learner</li>
+          <li>Clear communication in writing</li>
+        </ul>
+      </div>
+
+      <div class="about-block">
+        <h3>Languages</h3>
+        <ul class="clean">
+          <li>Georgian - native</li>
+          <li>English - C1</li>
+          <li>German - A2</li>
+        </ul>
+      </div>
+
+      <div class="about-block">
+        <h3>Quick facts</h3>
+        <ul class="clean">
+          <li>Based in Germany</li>
+          <li>Interested in embedded systems</li>
+        </ul>
+      </div>
+    </section>
+  </aside>
+
+  <main class="page">
+
+    <br>
+    <!-- <a href="https://makrine.github.io" target="_blank">Main Portfolio Page</a> -->
+    <section class="card">
+      <h2 class="header">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <rect x="7" y="7" width="10" height="10" rx="2" stroke-width="2" />
+          <path stroke-width="2" d="M3 9h4M3 15h4M17 9h4M17 15h4
+           M9 3v4M15 3v4M9 17v4M15 17v4" />
+        </svg>
+
+        Embedded Systems related projects
+      </h2>
+      <p class="sub">C/C++, microcontrollers, sensors, and “why is this pin high” debugging.</p>
+      <ul>
+        <li><a href="https://github.com/Makrine/STM_SPI" target="_blank">STM32F103C8T6 with LIS2DW12 SPI
+          </a><code> C</code></li>
         <li><a href="https://github.com/Makrine/PiRadio" target="_blank">PiRadio</a><code> C, mqtt</code></li>
-        <li><a href="https://github.com/Makrine/pi-bme280-mqtt" target="_blank">Raspberry Pi BME280 MQTT Publisher</a><code> C, mqtt</code></li>
-      <li><a href="https://github.com/Makrine/ArduinoTicTacToe" target="_blank">Arduino TicTacToe </a><code> C++</code></li>
-      <li><a href="https://github.com/Makrine/LedMatrixController" target="_blank">LED Matrix controller without additional drivers (Arduino Library)</a><code> C++</code></li>
-      <li><a href="https://github.com/Makrine/ArduinoTuringMachine" target="_blank">Universal Turing Machine on Arduino</a><code> C++</code></li>
+        <li><a href="https://github.com/Makrine/pi-bme280-mqtt" target="_blank">Raspberry Pi BME280 MQTT
+            Publisher</a><code> C, mqtt</code></li>
+        <li><a href="https://github.com/Makrine/ArduinoTicTacToe" target="_blank">Arduino TicTacToe
+          </a><code> C++</code></li>
+        <li><a href="https://github.com/Makrine/LedMatrixController" target="_blank">LED Matrix controller without
+            additional drivers (Arduino Library)</a><code> C++</code></li>
+        <li><a href="https://github.com/Makrine/ArduinoTuringMachine" target="_blank">Universal Turing Machine on
+            Arduino</a><code> C++</code></li>
       </ul>
-    <h2 class="header">
-      <img src="Assets/Unity.png" alt="unity" class="image" />
-       Unity related projects</h2>
-    <ul>
-      <li><a href="https://play.google.com/store/apps/details?id=com.byostudios.byoracersov&hl=en&gl=US" target="_blank">My previous job project: Byoracer</a><code> Unity, C#</code></li>
-      <li><a href="https://store.steampowered.com/app/2011960/Sunny_Grove/" target="_blank">My previous job project: Sunny Grove</a><code> Unity, C#, Blender</code></li>
-      <li><a href="https://makrine.github.io/GamifiedCV" target="_blank">Gamified CV (WebGL)</a><code> Unity, C#, Adobe Photoshop, Adobe Illustrator</code></li>
-      <li><a href="https://makrine.itch.io/3d-puzzle-generator" target="_blank">3D Puzzle Generator</a><code> Unity, C#, Blender, Adobe Photoshop</code></li>
-      <li><a href="https://makrine.itch.io/boys-vs-girls-game" target="_blank">Freelance Project: Boys VS Girls</a><code> Unity, C#, Adobe Photoshop</code></li>
-      <li><a href="https://makrine.itch.io/catch-dat-fish" target="_blank">Android game: Catch Dat Fish (WIP)</a><code> Unity, C#, Firebase SDK, Adobe Photoshop, Adobe Illustrator</code></li>
-      <li><a href="VaskaGoesTravelling.html" target="_blank">Newly started game: Vaska Goes Travelling (WIP)</a><code> Unity, C#, Blender, Adobe Photoshop, Adobe Illustrator</code></li>
-    </ul>
-    <h2>
-      <img src="Assets/py.png" alt="py" class="image" />
-       PyGame Games</h2>
-    <ul>
+    </section>
+
+    <section class="card">
+      <h2 class="header">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path stroke-width="2" stroke-linejoin="round" d="M12 2l8 4.5v9L12 20l-8-4.5v-9L12 2z" />
+          <path stroke-width="2" stroke-linejoin="round" d="M12 2v18M4 6.5l8 4.5 8-4.5" />
+        </svg>
+
+        Game Development Projects
+      </h2>
+      <p class="sub">Projects from my game developer era</p>
+      <ul>
+        <li><a href="https://play.google.com/store/apps/details?id=com.byostudios.byoracersov&hl=en&gl=US"
+            target="_blank">My previous job project: Byoracer</a><code> Unity, C#</code></li>
+        <li><a href="https://store.steampowered.com/app/2011960/Sunny_Grove/" target="_blank">My previous job project:
+            Sunny Grove</a><code> Unity, C#, Blender</code></li>
+        <li><a href="https://makrine.github.io/GamifiedCV" target="_blank">Gamified CV
+            (WebGL)</a><code> Unity, C#, Adobe Photoshop, Adobe Illustrator</code></li>
+        <li><a href="https://makrine.itch.io/3d-puzzle-generator" target="_blank">3D Puzzle
+            Generator</a><code> Unity, C#, Blender, Adobe Photoshop</code></li>
+        <li><a href="https://makrine.itch.io/boys-vs-girls-game" target="_blank">Freelance Project: Boys VS
+            Girls</a><code> Unity, C#, Adobe Photoshop</code></li>
+        <li><a href="https://makrine.itch.io/catch-dat-fish" target="_blank">Android game: Catch Dat Fish
+            (WIP)</a><code> Unity, C#, Firebase SDK, Adobe Photoshop, Adobe Illustrator</code></li>
+        <li><a href="VaskaGoesTravelling.html" target="_blank">Newly started game: Vaska Goes Travelling
+            (WIP)</a><code> Unity, C#, Blender, Adobe Photoshop, Adobe Illustrator</code></li>
         <li><a href="https://makrine.itch.io/space-runner" target="_blank">Space Runner</a><code> Python</code></li>
-    </ul>
+      </ul>
+    </section>
 
-    <h2 id="nonGame">
-      <img src="Assets/programming.png" alt="programming" class="image" />
-       Other programming projects</h2>
-    <ul>
-      <li><a href="https://makrine.github.io/UNIXTimestamp/" target="_blank">UNIX time for Makrina</a><code> HTML, CSS, JavaScript</code></li>
-      <li><a href="https://makrine.github.io/Timeline/" target="_blank">Makrina's Timeline</a><code> HTML, CSS, JavaScript</code></li>
-      <li><a href="https://github.com/Makrine/HMRO_generator" target="_blank">HMRO Test Cases Generator</a><code> C++</code></li>
-      <li><a href="https://makrine.github.io/NScards/" target="_blank">NationStates tool: Cards</a><code> HTML, CSS, JavaScript</code></li>
-      <li><a href="https://github.com/Makrine/cardsPlusPlus" target="_blank">NationStates tool: CardsPlusPlus (Chrome and Firefox extention)</a><code> JavaScript, HTML</code></li>
-      <li><a href="https://github.com/Makrine/TelegramAutoResponder" target="_blank">Telegram Auto Responder using OpenAI API</a><code> Python</code></li>
-      <li><a href="https://github.com/Makrine/autoLoginNS" target="_blank">Auto Login to NationStates</a><code> Shell</code></li>
-      <!-- <li><a href="https://makrine.github.io/ReactJSPage/" target="_blank">(Doesn't work! But whatever) CV made with ReactJS</a><code> ReactJS</code></li> -->
-    </ul>
+    <section class="card">
+      <h2 class="header">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+        </svg>
 
-    <h2>
-      <img src="Assets/email.png" alt="contact" class="image" />
-       Contact me at</h2>
-    <ul>
-        <li><a href="mailto:tskipurishvilimakrina@gmail.com?subject=Hello!" target="_blank">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/makrina-tskipurishvili-9b0407236/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://www.facebook.com/m.tskipurishvili" target="_blank">Facebook</a></li>
-    </ul>
-  </div>
-  
-  </body>
+        Other programming projects
+      </h2>
+      <p class="sub"></p>
+      <ul>
+        <li><a href="https://makrine.github.io/UNIXTimestamp/" target="_blank">UNIX time for
+            Makrina</a><code> HTML, CSS, JavaScript</code></li>
+        <li><a href="https://makrine.github.io/Timeline/" target="_blank">Makrina's
+            Timeline</a><code> HTML, CSS, JavaScript</code></li>
+        <li><a href="https://github.com/Makrine/HMRO_generator" target="_blank">HMRO Test Cases
+            Generator</a><code> C++</code></li>
+        <li><a href="https://makrine.github.io/NScards/" target="_blank">NationStates tool:
+            Cards</a><code> HTML, CSS, JavaScript</code></li>
+        <li><a href="https://github.com/Makrine/cardsPlusPlus" target="_blank">NationStates tool: CardsPlusPlus (Chrome
+            and Firefox extention)</a><code> JavaScript, HTML</code></li>
+        <li><a href="https://github.com/Makrine/TelegramAutoResponder" target="_blank">Telegram Auto Responder using
+            OpenAI API</a><code> Python</code></li>
+        <li><a href="https://github.com/Makrine/autoLoginNS" target="_blank">Auto Login to
+            NationStates</a><code> Shell</code></li>
+        <!-- <li><a href="https://makrine.github.io/ReactJSPage/" target="_blank">(Doesn't work! But whatever) CV made with ReactJS</a><code> ReactJS</code></li> -->
+      </ul>
+
+    </section>
+
+
+
+  </main>
+</div>
+
+</body>
+
 </html>
